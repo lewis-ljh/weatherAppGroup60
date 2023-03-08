@@ -1,4 +1,4 @@
-import { useState } from 'preact/hooks'
+import { useEffect, useState } from 'preact/hooks'
 import preactLogo from './assets/preact.svg'
 import './app.css'
 import FetchWeather from './fetch/fetchWeather'
@@ -24,7 +24,7 @@ export function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <FetchWeather />
+        <FetchWeather city={() => useEffect}/>
         <p>
           Edit <code>src/app.jsx</code> and save to test HMR
         </p>
