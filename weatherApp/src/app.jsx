@@ -18,6 +18,9 @@ export function App() {
       </div>
       <h1>Weather App</h1>
       <div class="card">
+        <div>
+          <input></input>
+        </div>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
