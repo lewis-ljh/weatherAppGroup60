@@ -1,6 +1,7 @@
 import { useState } from 'preact/hooks'
 import preactLogo from './assets/preact.svg'
 import './app.css'
+import { fetchWeather } from './fetch/fetchWeather.js'
 
 export function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ export function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <p>{fetchWeather}</p>
         <p>
           Edit <code>src/app.jsx</code> and save to test HMR
         </p>
