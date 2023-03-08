@@ -9,7 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "axios": "^1.3.4",
+=======
+>>>>>>> fetch-weather
     "jquery": "^3.6.3",
     "preact": "^10.11.3"
   },
