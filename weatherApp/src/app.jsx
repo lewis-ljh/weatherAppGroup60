@@ -7,13 +7,14 @@ export function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" class="logo" alt="Vite logo" />
-        </a>
-        <a href="https://preactjs.com" target="_blank">
-          <img src={preactLogo} class="logo preact" alt="Preact logo" />
-        </a>
+      <div class="day-forecast">
+        <a href="#Monday">Monday</a>
+        <a href="#Tuesday">Tuesday</a>
+        <a href="#Wednesday">Wednesday</a>
+        <a href="#Thursday">Thursday</a>
+        <a href="#Friday">Friday</a>
+        <a href="#Saturday">Saturday</a>
+        <a href="#Sunday">Sunday</a>
       </div>
       <h1>Weather App</h1>
       <div class="card">
@@ -25,7 +26,7 @@ export function App() {
         </p>
       </div>
       <p class="read-the-docs">
-        Click on the Vite and Preact logos to learn more
+        Group 60 
       </p>
     </>
   )
