@@ -1,1 +1,1 @@
-# weatherAppGroup60
+# Weather Application Group 60

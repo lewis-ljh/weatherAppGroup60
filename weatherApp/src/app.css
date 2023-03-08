@@ -1,8 +1,10 @@
 #app {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 12px auto;
+  padding: 15rem;
   text-align: center;
+  border: solid 1.5pt black;
+  border-left: solid ;
 }
 
 .logo {
